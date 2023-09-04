@@ -1,0 +1,55 @@
+/* Estilos para a barra de navegação */
+header {
+    background-color: #746363;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff5733;
+  }
+  
+  /* Estilos para as seções */
+  section {
+    margin: 20px;
+  }
+  
+  /* Estilos para o formulário de contato */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff5733;
+  }
